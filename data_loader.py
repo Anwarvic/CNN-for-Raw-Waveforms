@@ -30,7 +30,7 @@ class UrbanSoundDataset(torch.utils.data.Dataset):
         return waveform, label
 
 
-def load_data(data_path, batch_size, shuffle_dataset, random_seed=42):
+def load_urbansound8k(data_path, batch_size, shuffle_dataset, random_seed=42):
     train_paths = [os.path.join(data_path, f"fold{i}") for i in range (1, 10)]
     test_paths = [os.path.join(data_path, "fold10")]
 
