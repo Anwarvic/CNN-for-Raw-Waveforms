@@ -5,7 +5,7 @@ PyTorch and PyTorchAudio.
 The aim of this paper is to process raw audio wav files using only Convolution networks. The paper proposes five different models that range from 3 layers to 34 layers. The dataset used in this paper contains short audio files ()
 
 <div align="Center">
-    <a href="./docs/paper.pdf"> <img src="docs/cover.png" width=500> </a>
+    <a href="https://arxiv.org/pdf/1610.00087.pdf"> <img src="docs/cover.png" width=500> </a>
 </div>
 
 
