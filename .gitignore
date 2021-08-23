@@ -1,4 +1,5 @@
 py38
+urbansound8k/fold*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
