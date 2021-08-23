@@ -12,7 +12,8 @@ The aim of this paper is to process raw audio wav files using only Convolution n
 ## Notebooks
 
 In this repo, you can find notebooks for both GoogleColab and Kaggle that can
-be used directly without the need to clone the repo or anything.
+be used directly without the need to clone the repo or anything. These files
+can be found in the `notebooks` directory.
 
 
 # Pre-requisites
@@ -30,10 +31,20 @@ The dataset used in this paper is [Urban Sound 8K](https://www.kaggle.com/chrisf
 
 2. Go to your account and create a new token.
 
-3. This will directly download a JSON file called 'kaggle.json`. Copy this file
-to `~/.kaggle`.
+<div align="Center">
+    <img src="https://i.ibb.co/s2tdbtR/kaggle-api.png" width=400>
+</div>
 
-4. Then, run the following command:
+
+3. This will directly download a JSON file called `kaggle.json`. Create a `.kaggle` directory in your home directory and copy this file to `~/.kaggle`. This can
+be done using the following commands:
+    ```
+    mkdir -p ~/.kaggle
+    cp kaggle.json ~/.kaggle
+    chmod 600 ~/.kaggle/kaggle.json
+    ```
+
+4. Now, get to the `urbansound8k` directory and run the bash script:
 
     ```
     cd urbansound8k
@@ -87,3 +98,7 @@ the paper. You can try any experiment like the following one:
 ```
 python experiments.py --model M34_res --n 5 --shuffle true --seed 42 --batchSize 128 --dataPath "urbansound8k"
 ```
+
+# Inference
+
+TODO
