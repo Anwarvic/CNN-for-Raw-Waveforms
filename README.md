@@ -1,8 +1,12 @@
 # CNN-for-Raw-Waveforms
-This is my attempt to implement the "Very Deep Convolutional Neural Networks For Raw Waveforms" research paper published in 2016 implemented fully with
-PyTorch and PyTorchAudio.
+This is my attempt to implement the "Very Deep Convolutional Neural Networks For
+Raw Waveforms" research paper published in 2016. My implementation has been
+done fully using PyTorch and PyTorchAudio.
 
-The aim of this paper is to process raw audio wav files using only Convolution networks. The paper proposes five different models that range from 3 layers to 34 layers. The dataset used in this paper contains short audio files ()
+The aim of this paper is to process raw audio wav files using only Convolution
+networks. The paper proposes five different models that range from 3 layers to
+34 layers. The dataset used in this paper named "Urban Sound 8K" which contains
+short audio files (1-4 seconds) of 44,100 HZ stereo wav files.
 
 <div align="Center">
     <a href="https://arxiv.org/pdf/1610.00087.pdf"> <img src="docs/cover.png" width=500> </a>
